@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 export default defineConfig({
-  // 👇 This line is the key fix for GitHub Pages
+  // 👇 This is critical for GitHub Pages (must match your repo name)
   base: '/visual-conversational-assistant/',
 
   plugins: [react()],
